@@ -153,6 +153,14 @@ After clicking Run, the **log panel** shows live crawl progress.
 - Run **Site2Vault: Open Site2Vault log** from the command palette
 - Enable **Open log view on job start** in plugin settings to open it automatically
 
+## Step 6: Browse the Results
+
+Once the crawl completes, the mirrored site appears in your vault as a folder tree of linked Markdown notes. Each page from the source site becomes a note with frontmatter properties (`source_url`, `description`) and `[[wikilinks]]` connecting related pages.
+
+![Mirrored site in the Obsidian vault](../images/site2vault-screenshot.jpg)
+
+The folder structure mirrors the site's URL path hierarchy. You can navigate the notes like any other Obsidian content — use backlinks, graph view, search, and all the usual Obsidian features.
+
 ## Tips
 
 - **Queue multiple jobs**: You can start another crawl while one is running. Jobs are queued and run one at a time (FIFO).
