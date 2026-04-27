@@ -6,6 +6,8 @@ Mirror websites into your Obsidian vault as linked Markdown notes.
 
 Site2Vault is an Obsidian plugin that wraps the [site2vault](https://github.com/vkorost/site2vault) Python CLI. It spawns crawls as child processes, streams live progress into an Obsidian log view, and exposes every CLI flag through a settings tab and per-job modal. No crawl logic runs in the plugin itself — the binary handles all fetching, parsing, and writing.
 
+**Video overview:** [Why Site2Vault exists and how it works](https://www.youtube.com/watch?v=Qk54nlIYy6o) — the concept of a self-built wiki as the AI context layer, how the CLI pipeline works, and how agents like Claude Code consume the output.
+
 ## Requirements
 
 - Obsidian 1.5.0 or later (desktop only — mobile cannot spawn child processes)
