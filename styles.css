@@ -1,0 +1,11 @@
+.s2v-log { font-family: var(--font-monospace); font-size: var(--font-ui-smaller); display: flex; flex-direction: column; height: 100%; }
+.s2v-log .s2v-row { padding: 2px 6px; border-bottom: 1px solid var(--background-modifier-border); }
+.s2v-log .s2v-row.s2v-ok    { color: var(--text-success); }
+.s2v-log .s2v-row.s2v-warn  { color: var(--text-warning); }
+.s2v-log .s2v-row.s2v-error { color: var(--text-error); }
+.s2v-log .s2v-row.s2v-muted { color: var(--text-faint); }
+.s2v-log .s2v-row.s2v-info  { color: var(--text-normal); font-weight: 600; }
+.s2v-header, .s2v-controls, .s2v-footer { padding: 6px; flex-shrink: 0; }
+.s2v-log-rows { overflow-y: auto; flex: 1; min-height: 0; }
+.s2v-footer button { margin-right: 6px; }
+.s2v-resolved-cmd { font-family: var(--font-monospace); white-space: pre-wrap; }

@@ -1,0 +1,11 @@
+{
+	"id": "site2vault",
+	"name": "Site2Vault",
+	"version": "0.1.0",
+	"minAppVersion": "1.5.0",
+	"description": "Mirror websites into your Obsidian vault as linked Markdown notes. Wraps the site2vault CLI; spawns crawls, streams progress, exposes every CLI flag from a settings UI.",
+	"author": "vkorost",
+	"authorUrl": "https://github.com/vkorost",
+	"fundingUrl": "https://github.com/vkorost/obsidian-site2vault",
+	"isDesktopOnly": true
+}
